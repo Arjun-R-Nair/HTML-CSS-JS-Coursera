@@ -1,22 +1,30 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
 
 <head>
     <title>BLOG</title>
 </head>
 
-<body>
+<body bgcolor="#808080">
     <h1 align="center"><i>This is my Blog</i></h1>
     <hr width="50%">
     <p align="center"><img src="1.gif" height="50%" border="5px" /></p>
     <hr width="50%">
     <h2><ins>DAY 1</ins></h2>
-    <p>I will rant here coz im jobless as fuck but bleh who cares. Few of my hobbies are: </p>
-    <ul>
-        <li>Football</li>
-        <li>Ranting</li>
-    </ul>
-    <p>Link to my <a href="https://github.com/Arjun-R-Nair" target="_blank">Github profile</a></p>
+    <div style="background-color:green ; color:white ; padding:15px">
+        <p>I will rant here coz im jobless as fuck but bleh who cares. Few of my hobbies are: </p>
+        <ul>
+            <li><span style="color:blue">Football</span></li>
+            <li>Ranting</li>
+        </ul>
+        <p>Link to my <a href="https://github.com/Arjun-R-Nair" target="_blank">Github profile</a></p>
+    </div>
+    <frameset cols="25%,50%,25%">
+        <frame src="hello.htm"/>
+        <frame src=""/>
+        <noframe>Frame not supported!</noframe>
+    </frameset>
     <table border="1px">
         <tr>
             <td colspan="2" align="center" bgcolor="blue">TABLE</td>
@@ -29,7 +37,27 @@
             <td>this is three</td>
             <td>this is four</td>
         </tr>
-    </table>
+    </table></br>
+    <div>
+        Fill this form
+        <form method="POST" action="https://webhook.site/6dfe9e8e-1a14-42ff-a0a6-0c6989f26672">
+            <input type="text" name="Name"/>
+            <input type="password" name="Password"/></br>
+            <font color="#000099">Gender:</font>
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female </br>
+            Languages you know: </br>
+            <input type="checkbox" name="lang" value="english"/>English</br>
+            <input type="checkbox" name="lang" value="hindi"/>Hindi</br>
+            <input type="checkbox" name="lang" value="french"/>French</br>
+            <input type="checkbox" name="lang" value="spanish"/>Spanish</br>
+            <input type="checkbox" name="lang" value="german"/>German</br>
+            <input type="checkbox" name="lang" value="japanese"/>Japanese</br>
+            Tell us more about yourself: </br>
+            <textarea name="info" height="20px" width="20px"></textarea></br>
+            <input type="submit" name="entered"/>
+        </form>
+    </div>
 </body>
 
 </html>
