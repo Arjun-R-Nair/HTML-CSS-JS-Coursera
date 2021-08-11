@@ -1,0 +1,43 @@
+#title{
+    margin:0 auto;
+}
+h1{
+    border:20px dashed;
+    width:450px;
+}
+article > p{
+    color:black;
+}
+article li{
+    color:pink;
+}
+.highlight{
+    font-size:22px;
+    font-weight:bold;
+}
+ul a:link, ul a:visited{
+    text-decoration:none;
+    background-color:peachpuff;
+    border:1px solid blue;
+    text-align:center;
+    width:200px;
+    display:block;
+    margin-bottom:2px;
+}
+ul a:hover, ul a:active{
+    background-color:red;
+    color:purple;
+    font-style:italic;
+    font-weight:bold;
+}
+table:hover td:nth-child(even){
+    background-color:black;
+    color:white;
+}
+body{
+    font-family:'Courier New', Courier, serif;
+    text-transform:none;
+}
+*{
+    box-sizing:border-box;
+}
