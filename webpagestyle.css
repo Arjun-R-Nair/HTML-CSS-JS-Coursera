@@ -24,3 +24,13 @@ h3{
     background-color:#EBFFEC;
     box-sizing:border-box;
 }
+h3.item{
+    width:50%;
+}
+h3.cost{
+    width:25%;
+}
+.description{
+    width:75%;
+    background-color:white;
+}
