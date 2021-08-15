@@ -6,23 +6,31 @@ h1,h2{
     text-align:center;
 }
 h3{
+    text-align:center;
+    display:inline;
     border-style:dashed;
+    border-color: red;
     background-color:#EBFFEC ;
     margin:5px;
     font-style:italic;
     text-align:center;
+    padding:5px;
+    box-sizing:border-box;
+}
+header.titles{
+    width:50%;
+    box-sizing: border-box;
 }
 .content{
     float:left;
     border:5px;
-    border-color:black;
     padding:5px;
-    width:45%;
+    width:48%;
     margin:15px;
     margin-right:15px;
     margin-bottom:10px;
     background-color:#EBFFEC;
-    box-sizing:border-box;
+    
 }
 h3.item{
     width:50%;
@@ -32,5 +40,6 @@ h3.cost{
 }
 .description{
     width:75%;
-    background-color:white;
+    padding:10px;
+    background-color:#EBFFEC;
 }
